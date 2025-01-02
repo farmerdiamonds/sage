@@ -1,8 +1,10 @@
 import {
   ArrowLeftRight,
   BookUser,
+  CloudUpload,
   Images,
   RouteIcon,
+  SmartphoneNfc,
   SquareUserRound,
   WalletIcon,
 } from 'lucide-react';
@@ -36,6 +38,10 @@ export function Nav() {
       <NavLink url={'/transactions'}>
         <ArrowLeftRight className='h-4 w-4' />
         <Trans>Transactions</Trans>
+      </NavLink>
+      <NavLink url={'/anti-counterfeit'}>
+        <SmartphoneNfc className='h-4 w-4' />
+        <Trans>Anti-counterfeit</Trans>
       </NavLink>
     </nav>
   );

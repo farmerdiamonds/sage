@@ -46,6 +46,7 @@ import { ViewOffer } from './pages/ViewOffer';
 import { ViewSavedOffer } from './pages/ViewSavedOffer';
 import Wallet from './pages/Wallet';
 import { fetchState } from './state';
+import AntiCounterfeit from './pages/AntiCounterfeit';
 
 export interface DarkModeContext {
   toggle: () => void;
@@ -94,6 +95,7 @@ const router = createHashRouter(
         <Route path='view/:offer' element={<ViewOffer />} />
         <Route path='view_saved/:offer_id' element={<ViewSavedOffer />} />
       </Route>
+      <Route path='/anti-counterfeit' element={<AntiCounterfeit />} />
       <Route path='/settings' element={<Settings />} />
       <Route path='/peers' element={<PeerList />} />
     </>,
