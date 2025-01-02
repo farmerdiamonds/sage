@@ -24,7 +24,7 @@ export default function AntiCounterfeit() {
             </CardTitle>
             <CardDescription>
               <Trans>
-                Proove or secure the authenticity of your product.
+                Prove or secure the authenticity of your product.
               </Trans>
             </CardDescription>
           </CardHeader>
