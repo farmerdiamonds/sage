@@ -49,6 +49,7 @@ sage-config = { path = "./crates/sage-config" }
 sage-database = { path = "./crates/sage-database" }
 sage-keychain = { path = "./crates/sage-keychain" }
 sage-wallet = { path = "./crates/sage-wallet" }
+fd-anticounterfeit = { path = "./crates/fd-anticounterfeit" }
 
 # Serialization
 serde = "1.0.204"
